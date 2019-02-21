@@ -17,6 +17,8 @@ void MissionRaw::download_mission_cancel()
 {
     _impl->download_mission_cancel();
 }
+ 
+
 
 const char *MissionRaw::result_str(Result result)
 {
